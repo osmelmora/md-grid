@@ -1,0 +1,52 @@
+{
+  "name": "md-grid",
+  "version": "0.1.0",
+  "description": "Material Design grid system powered by React",
+  "main": "dist/md-grid.js",
+  "module": "lib/index.js",
+  "scripts": {
+    "build": "npm run webpack && npm run babel",
+    "prebuild": "npm run clean",
+    "webpack": "webpack --env.production",
+    "babel": "babel ./src --out-dir ./lib",
+    "clean": "rimraf lib dist",
+    "test": "jest",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmelmora/md-grid.git"
+  },
+  "keywords": [
+    "react",
+    "material design",
+    "grid"
+  ],
+  "author": "Osmel Mora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osmelmora/md-grid/issues"
+  },
+  "homepage": "https://github.com/osmelmora/md-grid#readme",
+  "devDependencies": {
+    "@kadira/storybook": "2.35.3",
+    "babel-cli": "6.23.0",
+    "babel-core": "6.23.1",
+    "babel-jest": "18.0.0",
+    "babel-loader": "6.3.0",
+    "babel-plugin-syntax-class-properties": "6.13.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-env": "1.2.1",
+    "babel-preset-react": "6.23.0",
+    "enzyme": "2.7.1",
+    "jest-cli": "18.1.0",
+    "react": "15.4.2",
+    "react-addons-test-utils": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-test-renderer": "15.4.2",
+    "rimraf": "2.5.4",
+    "styled-components": "1.4.3",
+    "webpack": "2.2.1"
+  }
+}
