@@ -1,5 +1,6 @@
-# Build
+# Build folders
 dist
+es
 lib
 
 # Logs

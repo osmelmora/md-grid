@@ -5,7 +5,7 @@ import styleSheet from 'styled-components/lib/models/StyleSheet';
 
 import { selectCssOutput } from './utils';
 
-import Row from '../Row';
+import Row from '../src/Row';
 
 const testCase = (description, props) => {
   describe(description, () => {
