@@ -1,8 +1,7 @@
 {
   "name": "md-grid",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Material Design grid system powered by React & Styled Components",
-  "browser": "dist/md-grid.js",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
